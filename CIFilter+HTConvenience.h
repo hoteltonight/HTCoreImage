@@ -26,21 +26,19 @@
 
 + (CIFilter *)filterColorControlsSaturation:(CGFloat)saturation
                                  brightness:(CGFloat)brightness
-                                   contrast:(CGFloat)contrast;
+                                   contrast:(CGFloat)contrast NS_AVAILABLE_IOS(5_0);
 
-+ (CIFilter *)filterLanczosWithScale:(CGFloat)scale;
++ (CIFilter *)filterCropWithRect:(CGRect)rect NS_AVAILABLE_IOS(5_0);
 
-+ (CIFilter *)filterCropWithRect:(CGRect)rect;
++ (CIFilter *)filterColorMatrixWithAlpha:(CGFloat)alpha NS_AVAILABLE_IOS(5_0);
 
-+ (CIFilter *)filterColorMatrixWithAlpha:(CGFloat)alpha;
++ (CIFilter *)filterColorMatrixWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha NS_AVAILABLE_IOS(5_0);
 
-+ (CIFilter *)filterColorMatrixWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
++ (CIFilter *)filterSourceOverCompositingWithBackgroundImage:(CIImage *)backgroundImage NS_AVAILABLE_IOS(5_0);
 
-+ (CIFilter *)filterSourceOverCompositingWithBackgroundImage:(CIImage *)backgroundImage;
++ (CIFilter *)filterWithAffineTransform:(CGAffineTransform)transform NS_AVAILABLE_IOS(5_0);
 
-+ (CIFilter *)filterWithAffineTransform:(CGAffineTransform)transform;
-
-+ (CIFilter *)filterWithBestAvailableScalingMethod:(CGFloat)scale;
++ (CIFilter *)filterWithBestAvailableScalingMethod:(CGFloat)scale NS_AVAILABLE_IOS(5_0);
 
 /*
  CIAdditionCompositing,
@@ -92,6 +90,8 @@
  */
 
 // Available since iOS 6
+
++ (CIFilter *)filterLanczosWithScale:(CGFloat)scale NS_AVAILABLE_IOS(6_0);
 
 /*
  CIAffineClamp,

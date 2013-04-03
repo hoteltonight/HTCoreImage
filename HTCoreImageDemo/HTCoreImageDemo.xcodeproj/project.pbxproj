@@ -25,6 +25,20 @@
 		1F782843170BF41900C2981E /* UIImage+HTCoreImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78283F170BF41900C2981E /* UIImage+HTCoreImage.m */; };
 		1F782847170BF4BB00C2981E /* UIImage+HTSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782846170BF4BB00C2981E /* UIImage+HTSave.m */; };
 		1F782849170BF4DF00C2981E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F782848170BF4DE00C2981E /* CoreImage.framework */; };
+		1F78284C170BF5C700C2981E /* CIFilter+HTCICategoryBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78284B170BF5C700C2981E /* CIFilter+HTCICategoryBlur.m */; };
+		1F78284F170BF5DD00C2981E /* CIFilter+HTCICategoryColorAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78284E170BF5DC00C2981E /* CIFilter+HTCICategoryColorAdjustment.m */; };
+		1F782855170BF61000C2981E /* CIFilter+HTCICategoryCompositeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782854170BF60F00C2981E /* CIFilter+HTCICategoryCompositeOperation.m */; };
+		1F782858170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782857170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.m */; };
+		1F78285B170BF65300C2981E /* CIFilter+HTCICategoryColorEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78285A170BF64F00C2981E /* CIFilter+HTCICategoryColorEffect.m */; };
+		1F78285E170BF68700C2981E /* CIFilter+HTCICategoryGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78285D170BF68200C2981E /* CIFilter+HTCICategoryGenerator.m */; };
+		1F782861170BF6BA00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782860170BF6AB00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.m */; };
+		1F782864170BF6DA00C2981E /* CIFilter+HTCICategoryGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782863170BF6D300C2981E /* CIFilter+HTCICategoryGradient.m */; };
+		1F782867170BF70200C2981E /* CIFilter+HTCICategoryHalftoneEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782866170BF70200C2981E /* CIFilter+HTCICategoryHalftoneEffect.m */; };
+		1F78286A170BF71400C2981E /* CIFilter+HTCICategoryReduction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782869170BF71300C2981E /* CIFilter+HTCICategoryReduction.m */; };
+		1F78286D170BF72600C2981E /* CIFilter+HTCICategorySharpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78286C170BF72600C2981E /* CIFilter+HTCICategorySharpen.m */; };
+		1F782870170BF73500C2981E /* CIFilter+HTCICategoryStylize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78286F170BF73400C2981E /* CIFilter+HTCICategoryStylize.m */; };
+		1F782873170BF74A00C2981E /* CIFilter+HTCICategoryTileEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782872170BF74900C2981E /* CIFilter+HTCICategoryTileEffect.m */; };
+		1F782876170BF75900C2981E /* CIFilter+HTCICategoryTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782875170BF75900C2981E /* CIFilter+HTCICategoryTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +72,34 @@
 		1F782845170BF4BB00C2981E /* UIImage+HTSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTSave.h"; path = "../UIImage+HTSave.h"; sourceTree = "<group>"; };
 		1F782846170BF4BB00C2981E /* UIImage+HTSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTSave.m"; path = "../UIImage+HTSave.m"; sourceTree = "<group>"; };
 		1F782848170BF4DE00C2981E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1F78284A170BF5C700C2981E /* CIFilter+HTCICategoryBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryBlur.h"; sourceTree = "<group>"; };
+		1F78284B170BF5C700C2981E /* CIFilter+HTCICategoryBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryBlur.m"; sourceTree = "<group>"; };
+		1F78284D170BF5DC00C2981E /* CIFilter+HTCICategoryColorAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryColorAdjustment.h"; sourceTree = "<group>"; };
+		1F78284E170BF5DC00C2981E /* CIFilter+HTCICategoryColorAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryColorAdjustment.m"; sourceTree = "<group>"; };
+		1F782853170BF60F00C2981E /* CIFilter+HTCICategoryCompositeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryCompositeOperation.h"; sourceTree = "<group>"; };
+		1F782854170BF60F00C2981E /* CIFilter+HTCICategoryCompositeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryCompositeOperation.m"; sourceTree = "<group>"; };
+		1F782856170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryDistortionEffect.h"; sourceTree = "<group>"; };
+		1F782857170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryDistortionEffect.m"; sourceTree = "<group>"; };
+		1F782859170BF64E00C2981E /* CIFilter+HTCICategoryColorEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryColorEffect.h"; sourceTree = "<group>"; };
+		1F78285A170BF64F00C2981E /* CIFilter+HTCICategoryColorEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryColorEffect.m"; sourceTree = "<group>"; };
+		1F78285C170BF68000C2981E /* CIFilter+HTCICategoryGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryGenerator.h"; sourceTree = "<group>"; };
+		1F78285D170BF68200C2981E /* CIFilter+HTCICategoryGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryGenerator.m"; sourceTree = "<group>"; };
+		1F78285F170BF69F00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryGeometryAdjustment.h"; sourceTree = "<group>"; };
+		1F782860170BF6AB00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryGeometryAdjustment.m"; sourceTree = "<group>"; };
+		1F782862170BF6CE00C2981E /* CIFilter+HTCICategoryGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryGradient.h"; sourceTree = "<group>"; };
+		1F782863170BF6D300C2981E /* CIFilter+HTCICategoryGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryGradient.m"; sourceTree = "<group>"; };
+		1F782865170BF70100C2981E /* CIFilter+HTCICategoryHalftoneEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryHalftoneEffect.h"; sourceTree = "<group>"; };
+		1F782866170BF70200C2981E /* CIFilter+HTCICategoryHalftoneEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryHalftoneEffect.m"; sourceTree = "<group>"; };
+		1F782868170BF71300C2981E /* CIFilter+HTCICategoryReduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryReduction.h"; sourceTree = "<group>"; };
+		1F782869170BF71300C2981E /* CIFilter+HTCICategoryReduction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryReduction.m"; sourceTree = "<group>"; };
+		1F78286B170BF72500C2981E /* CIFilter+HTCICategorySharpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategorySharpen.h"; sourceTree = "<group>"; };
+		1F78286C170BF72600C2981E /* CIFilter+HTCICategorySharpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategorySharpen.m"; sourceTree = "<group>"; };
+		1F78286E170BF73400C2981E /* CIFilter+HTCICategoryStylize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryStylize.h"; sourceTree = "<group>"; };
+		1F78286F170BF73400C2981E /* CIFilter+HTCICategoryStylize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryStylize.m"; sourceTree = "<group>"; };
+		1F782871170BF74900C2981E /* CIFilter+HTCICategoryTileEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryTileEffect.h"; sourceTree = "<group>"; };
+		1F782872170BF74900C2981E /* CIFilter+HTCICategoryTileEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryTileEffect.m"; sourceTree = "<group>"; };
+		1F782874170BF75800C2981E /* CIFilter+HTCICategoryTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+HTCICategoryTransition.h"; sourceTree = "<group>"; };
+		1F782875170BF75900C2981E /* CIFilter+HTCICategoryTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+HTCICategoryTransition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,20 +177,56 @@
 		1F782829170BF35D00C2981E /* HTCoreImage */ = {
 			isa = PBXGroup;
 			children = (
-				1F782845170BF4BB00C2981E /* UIImage+HTSave.h */,
-				1F782846170BF4BB00C2981E /* UIImage+HTSave.m */,
-				1F782844170BF46300C2981E /* HTFloatEqual.h */,
-				1F782837170BF41900C2981E /* CIFilter+HTConvenience.h */,
-				1F782838170BF41900C2981E /* CIFilter+HTConvenience.m */,
+				1F782877170BF75D00C2981E /* CIFIlter */,
+				1F78283B170BF41900C2981E /* HTCoreImage.h */,
 				1F782839170BF41900C2981E /* CIImage+HTConvenience.h */,
 				1F78283A170BF41900C2981E /* CIImage+HTConvenience.m */,
-				1F78283B170BF41900C2981E /* HTCoreImage.h */,
 				1F78283C170BF41900C2981E /* HTCoreImageView.h */,
 				1F78283D170BF41900C2981E /* HTCoreImageView.m */,
 				1F78283E170BF41900C2981E /* UIImage+HTCoreImage.h */,
 				1F78283F170BF41900C2981E /* UIImage+HTCoreImage.m */,
+				1F782845170BF4BB00C2981E /* UIImage+HTSave.h */,
+				1F782846170BF4BB00C2981E /* UIImage+HTSave.m */,
+				1F782844170BF46300C2981E /* HTFloatEqual.h */,
 			);
 			name = HTCoreImage;
+			sourceTree = "<group>";
+		};
+		1F782877170BF75D00C2981E /* CIFIlter */ = {
+			isa = PBXGroup;
+			children = (
+				1F782837170BF41900C2981E /* CIFilter+HTConvenience.h */,
+				1F782838170BF41900C2981E /* CIFilter+HTConvenience.m */,
+				1F78284A170BF5C700C2981E /* CIFilter+HTCICategoryBlur.h */,
+				1F78284B170BF5C700C2981E /* CIFilter+HTCICategoryBlur.m */,
+				1F78284D170BF5DC00C2981E /* CIFilter+HTCICategoryColorAdjustment.h */,
+				1F78284E170BF5DC00C2981E /* CIFilter+HTCICategoryColorAdjustment.m */,
+				1F782859170BF64E00C2981E /* CIFilter+HTCICategoryColorEffect.h */,
+				1F78285A170BF64F00C2981E /* CIFilter+HTCICategoryColorEffect.m */,
+				1F782853170BF60F00C2981E /* CIFilter+HTCICategoryCompositeOperation.h */,
+				1F782854170BF60F00C2981E /* CIFilter+HTCICategoryCompositeOperation.m */,
+				1F782856170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.h */,
+				1F782857170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.m */,
+				1F78285C170BF68000C2981E /* CIFilter+HTCICategoryGenerator.h */,
+				1F78285D170BF68200C2981E /* CIFilter+HTCICategoryGenerator.m */,
+				1F78285F170BF69F00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.h */,
+				1F782860170BF6AB00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.m */,
+				1F782862170BF6CE00C2981E /* CIFilter+HTCICategoryGradient.h */,
+				1F782863170BF6D300C2981E /* CIFilter+HTCICategoryGradient.m */,
+				1F782865170BF70100C2981E /* CIFilter+HTCICategoryHalftoneEffect.h */,
+				1F782866170BF70200C2981E /* CIFilter+HTCICategoryHalftoneEffect.m */,
+				1F782868170BF71300C2981E /* CIFilter+HTCICategoryReduction.h */,
+				1F782869170BF71300C2981E /* CIFilter+HTCICategoryReduction.m */,
+				1F78286B170BF72500C2981E /* CIFilter+HTCICategorySharpen.h */,
+				1F78286C170BF72600C2981E /* CIFilter+HTCICategorySharpen.m */,
+				1F78286E170BF73400C2981E /* CIFilter+HTCICategoryStylize.h */,
+				1F78286F170BF73400C2981E /* CIFilter+HTCICategoryStylize.m */,
+				1F782871170BF74900C2981E /* CIFilter+HTCICategoryTileEffect.h */,
+				1F782872170BF74900C2981E /* CIFilter+HTCICategoryTileEffect.m */,
+				1F782874170BF75800C2981E /* CIFilter+HTCICategoryTransition.h */,
+				1F782875170BF75900C2981E /* CIFilter+HTCICategoryTransition.m */,
+			);
+			name = CIFIlter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +305,20 @@
 				1F782842170BF41900C2981E /* HTCoreImageView.m in Sources */,
 				1F782843170BF41900C2981E /* UIImage+HTCoreImage.m in Sources */,
 				1F782847170BF4BB00C2981E /* UIImage+HTSave.m in Sources */,
+				1F78284C170BF5C700C2981E /* CIFilter+HTCICategoryBlur.m in Sources */,
+				1F78284F170BF5DD00C2981E /* CIFilter+HTCICategoryColorAdjustment.m in Sources */,
+				1F782855170BF61000C2981E /* CIFilter+HTCICategoryCompositeOperation.m in Sources */,
+				1F782858170BF62800C2981E /* CIFilter+HTCICategoryDistortionEffect.m in Sources */,
+				1F78285B170BF65300C2981E /* CIFilter+HTCICategoryColorEffect.m in Sources */,
+				1F78285E170BF68700C2981E /* CIFilter+HTCICategoryGenerator.m in Sources */,
+				1F782861170BF6BA00C2981E /* CIFilter+HTCICategoryGeometryAdjustment.m in Sources */,
+				1F782864170BF6DA00C2981E /* CIFilter+HTCICategoryGradient.m in Sources */,
+				1F782867170BF70200C2981E /* CIFilter+HTCICategoryHalftoneEffect.m in Sources */,
+				1F78286A170BF71400C2981E /* CIFilter+HTCICategoryReduction.m in Sources */,
+				1F78286D170BF72600C2981E /* CIFilter+HTCICategorySharpen.m in Sources */,
+				1F782870170BF73500C2981E /* CIFilter+HTCICategoryStylize.m in Sources */,
+				1F782873170BF74A00C2981E /* CIFilter+HTCICategoryTileEffect.m in Sources */,
+				1F782876170BF75900C2981E /* CIFilter+HTCICategoryTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
