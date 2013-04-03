@@ -101,7 +101,7 @@
 {
     CIFilter *whitePointFilter = [CIFilter filterWithName:@"CIWhitePointAdjust"];
     [whitePointFilter setDefaults];
-    [whitePointFilter setValue:@(inputColor) forKey:@"inputColor"];
+    [whitePointFilter setValue:[CIColor colorWithCGColor:inputColor.CGColor] forKey:@"inputColor"];
     return whitePointFilter;
 }
 

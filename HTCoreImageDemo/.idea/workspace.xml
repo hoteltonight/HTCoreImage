@@ -6,7 +6,9 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/CIFilter+HTCICategoryBlur.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364967905358" ignored="false" />
     <file path="/CIFilter+HTCICategoryColorAdjustment.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364969149430" ignored="false" />
-    <file path="/CIFilter+HTCICategoryColorAdjustment.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364969217763" ignored="false" />
+    <file path="/CIFilter+HTCICategoryColorAdjustment.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364969776445" ignored="false" />
+    <file path="/CIFilter+HTCICategoryColorEffect.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364970371212" ignored="false" />
+    <file path="/CIFilter+HTCICategoryColorEffect.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364970476525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
       <file leaf-file-name="CIFilter+HTConvenience.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../CIFilter+HTConvenience.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="30" column="43" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,16 +58,34 @@
       <file leaf-file-name="CIFilter+HTCICategoryColorAdjustment.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="4362" selection-end="4362" vertical-scroll-proportion="0.0">
+            <state line="106" column="0" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CIFilter+HTCICategoryColorAdjustment.h" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CIFilter+HTCICategoryColorEffect.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="52" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryColorEffect.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="23" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.56558937">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryColorAdjustment.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.4524715">
+            <state line="9" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,6 +116,8 @@
         <option value="$PROJECT_DIR$/../CIFilter+HTConvenience.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.h" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.m" />
+        <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.m" />
+        <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.h" />
       </list>
     </option>
   </component>
@@ -301,13 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CIFilter+HTConvenience.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryBlur.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="81" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
@@ -317,14 +332,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="4362" selection-end="4362" vertical-scroll-proportion="0.0">
+        <state line="106" column="0" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CIFilter+HTConvenience.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="43" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.4524715">
+        <state line="9" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="52" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.56558937">
           <folding />
         </state>
       </provider>

@@ -10,4 +10,93 @@
 
 @implementation CIFilter (HTCICategoryColorEffect)
 
++ (CIFilter *)filterColorCubeWithDimension:(NSUInteger)dimension cubeData:(NSData *)cubeData
+{
+    CIFilter *colorCubeFilter = [CIFilter filterWithName:@"CIColorCube"];
+    [colorCubeFilter setDefaults];
+    [colorCubeFilter setValue:@(dimension) forKey:@"inputCubeDimension"];
+    [colorCubeFilter setValue:cubeData forKey:@"inputCubeData"];
+    return colorCubeFilter;
+}
+
++ (CIFilter *)filterColorInvert
+{
+    CIFilter *colorInvertFilter = [CIFilter filterWithName:@"CIColorInvert"];
+    [colorInvertFilter setDefaults];
+    return colorInvertFilter;
+}
+
++ (CIFilter *)filterColorMapWithGradientImage:(CIImage *)gradientImage
+{
+    CIFilter *colorMapFilter = [CIFilter filterWithName:@"CIColorMap"];
+    [colorMapFilter setDefaults];
+    [colorMapFilter setValue:gradientImage forKey:@"inputGradientImage"];
+    return colorMapFilter;
+}
+
++ (CIFilter *)filterColorMonochromeWithColor:(UIColor *)color intensity:(CGFloat)intensity
+{
+    CIFilter *monochromeFilter = [CIFilter filterWithName:@"CIColorMonochrome"];
+    [monochromeFilter setDefaults];
+    [monochromeFilter setValue:[CIColor colorWithCGColor:color.CGColor] forKey:@"inputColor"];
+    [monochromeFilter setValue:@(intensity) forKey:@"inputIntensity"];
+    return monochromeFilter;
+}
+
++ (CIFilter *)filterPosterizeWithLevels:(CGFloat)levels
+{
+    CIFilter *posterizeFilter = [CIFilter filterWithName:@"CIColorPosterize"];
+    [posterizeFilter setDefaults];
+    [posterizeFilter setValue:@(levels) forKey:@"inputLevels"];
+    return posterizeFilter;
+}
+
++ (CIFilter *)filterFalseColorWithColor0:(UIColor *)color0 color1:(UIColor *)color1
+{
+    CIFilter *falseColorFilter = [CIFilter filterWithName:@"CIFalseColor"];
+    [falseColorFilter setDefaults];
+    [falseColorFilter setValue:[CIColor colorWithCGColor:color0.CGColor] forKey:@"inputColor0"];
+    [falseColorFilter setValue:[CIColor colorWithCGColor:color1.CGColor] forKey:@"inputColor1"];
+    return falseColorFilter;
+}
+
++ (CIFilter *)filterMaskToAlpha
+{
+    CIFilter *maskToAlphaFilter = [CIFilter filterWithName:@"CIMaskToAlpha"];
+    [maskToAlphaFilter setDefaults];
+    return maskToAlphaFilter;
+}
+
++ (CIFilter *)filterMaximumComponent
+{
+    CIFilter *maximumComponentFilter = [CIFilter filterWithName:@"CIMaximumComponent"];
+    [maximumComponentFilter setDefaults];
+    return maximumComponentFilter;
+}
+
++ (CIFilter *)filterMinimumComponent
+{
+    CIFilter *minimumComponentFilter = [CIFilter filterWithName:@"CIMinimumComponent"];
+    [minimumComponentFilter setDefaults];
+    return minimumComponentFilter;
+}
+
++ (CIFilter *)filterSepiaToneWithIntensity:(CGFloat)intensity
+{
+    CIFilter *sepiaToneFilter = [CIFilter filterWithName:@"CISepiaTone"];
+    [sepiaToneFilter setDefaults];
+    [sepiaToneFilter setValue:@(intensity) forKey:@"inputIntensity"];
+    return sepiaToneFilter;
+}
+
++ (CIFilter *)filterVignetteWithRadius:(CGFloat)radius intensity:(CGFloat)intensity
+{
+    CIFilter *vignetteFilter = [CIFilter filterWithName:@"CIVignette"];
+    [vignetteFilter setDefaults];
+    [vignetteFilter setValue:@(radius) forKey:@"inputRadius"];
+    [vignetteFilter setValue:@(intensity) forKey:@"inputIntensity"];
+    return vignetteFilter;
+}
+
+
 @end
