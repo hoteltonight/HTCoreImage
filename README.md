@@ -61,6 +61,7 @@ Tweet the author @jakejennings, and check out HotelTonight's engineering blog: h
 
 Also, check out HotelTonight's other iOS open source:
 * https://github.com/hoteltonight/HTAutocompleteTextField
+* https://github.com/hoteltonight/HTKit
 * https://github.com/hoteltonight/HTGradientEasing
 * https://github.com/hoteltonight/HTStateAwareRasterImageView
 * https://github.com/hoteltonight/HTDelegateProxy
