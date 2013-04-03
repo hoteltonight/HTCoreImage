@@ -9,6 +9,8 @@
     <file path="/CIFilter+HTCICategoryColorAdjustment.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364969776445" ignored="false" />
     <file path="/CIFilter+HTCICategoryColorEffect.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364970371212" ignored="false" />
     <file path="/CIFilter+HTCICategoryColorEffect.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364970476525" ignored="false" />
+    <file path="/CIFilter+HTCICategoryCompositeOperation.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364971200572" ignored="false" />
+    <file path="/CIFilter+HTCICategoryCompositeOperation.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1364971838160" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +75,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CIFilter+HTCICategoryColorEffect.h" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CIFilter+HTCICategoryCompositeOperation.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryCompositeOperation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="28" selection-start="7565" selection-end="7565" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryCompositeOperation.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryCompositeOperation.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="0" selection-start="1992" selection-end="1992" vertical-scroll-proportion="1.0502874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryColorEffect.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="23" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.56558937">
+            <state line="14" column="54" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,6 +138,8 @@
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorAdjustment.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.h" />
+        <option value="$PROJECT_DIR$/CIFilter+HTCICategoryCompositeOperation.h" />
+        <option value="$PROJECT_DIR$/CIFilter+HTCICategoryCompositeOperation.m" />
       </list>
     </option>
   </component>
@@ -211,6 +233,8 @@
     </configuration>
     <configuration default="false" name="HTCoreImageDemo" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="HTCoreImageDemo" PROJECT_NAME="HTCoreImageDemo" TARGET_NAME="HTCoreImageDemo" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="HTCoreImageDemo" RUN_TARGET_NAME="HTCoreImageDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
+      <RunnerSettings RunnerId="InstrumentsRunner" />
+      <ConfigurationWrapper RunnerId="InstrumentsRunner" />
       <method />
     </configuration>
     <list size="1">
@@ -230,10 +254,11 @@
     <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962963" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -360,7 +385,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryColorEffect.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.56558937">
+        <state line="14" column="54" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryCompositeOperation.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="28" selection-start="7565" selection-end="7565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryCompositeOperation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1992" selection-end="1992" vertical-scroll-proportion="1.0502874">
           <folding />
         </state>
       </provider>
