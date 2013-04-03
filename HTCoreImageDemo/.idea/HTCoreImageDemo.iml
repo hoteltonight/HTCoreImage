@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../CIFilter+HTConvenience.h">
+      <sourceFolder url="file://$MODULE_DIR$/../CIFilter+HTConvenience.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CIFilter+HTConvenience.m">
+      <sourceFolder url="file://$MODULE_DIR$/../CIFilter+HTConvenience.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CIImage+HTConvenience.h">
+      <sourceFolder url="file://$MODULE_DIR$/../CIImage+HTConvenience.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../CIImage+HTConvenience.m">
+      <sourceFolder url="file://$MODULE_DIR$/../CIImage+HTConvenience.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../HTCoreImage.h">
+      <sourceFolder url="file://$MODULE_DIR$/../HTCoreImage.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../HTCoreImageView.h">
+      <sourceFolder url="file://$MODULE_DIR$/../HTCoreImageView.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../HTCoreImageView.m">
+      <sourceFolder url="file://$MODULE_DIR$/../HTCoreImageView.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../HTFloatEqual.h">
+      <sourceFolder url="file://$MODULE_DIR$/../HTFloatEqual.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../UIImage+HTCoreImage.h">
+      <sourceFolder url="file://$MODULE_DIR$/../UIImage+HTCoreImage.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../UIImage+HTCoreImage.m">
+      <sourceFolder url="file://$MODULE_DIR$/../UIImage+HTCoreImage.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../UIImage+HTSave.h">
+      <sourceFolder url="file://$MODULE_DIR$/../UIImage+HTSave.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../UIImage+HTSave.m">
+      <sourceFolder url="file://$MODULE_DIR$/../UIImage+HTSave.m" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

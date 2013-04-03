@@ -10,4 +10,13 @@
 
 @implementation CIFilter (HTCICategoryBlur)
 
++ (CIFilter *)filterGaussianBlurWithRadius:(CGFloat)radius
+{
+    CIFilter *gaussianBlurFilter = [CIFilter filterWithName:@"CIGaussianBlur"];
+    [gaussianBlurFilter setDefaults];
+    [gaussianBlurFilter setValue:@(radius) forKey:@"inputRadius"];
+    return gaussianBlurFilter;
+}
+
+
 @end

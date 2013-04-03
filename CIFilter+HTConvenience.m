@@ -22,17 +22,6 @@
     return supportedFilters;
 }
 
-+ (CIFilter *)filterColorControlsSaturation:(CGFloat)saturation
-                                 brightness:(CGFloat)brightness
-                                   contrast:(CGFloat)contrast;
-{
-    CIFilter *filter = [CIFilter filterWithName:@"CIColorControls"];
-    [filter setValue:@(saturation) forKey:@"inputSaturation"];
-    [filter setValue:@(brightness) forKey:@"inputBrightness"];
-    [filter setValue:@(contrast) forKey:@"inputContrast"];
-    return filter;
-}
-
 + (CIFilter *)filterLanczosWithScale:(CGFloat)scale;
 {
     CIFilter *lanczosFilter = [CIFilter filterWithName:@"CILanczosScaleTransform"];
@@ -47,29 +36,6 @@
     return cropFilter;
 }
 
-+ (CIFilter *)filterColorMatrixWithAlpha:(CGFloat)alpha;
-{
-    CIFilter *colorMatrixFilter = [CIFilter filterWithName:@"CIColorMatrix"];
-    [colorMatrixFilter setDefaults];
-    [colorMatrixFilter setValue:[CIVector vectorWithX:0 Y:0 Z:0 W:alpha]
-                         forKey:@"inputAVector"];
-    return colorMatrixFilter;
-}
-
-+ (CIFilter *)filterColorMatrixWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
-{
-    CIFilter *colorMatrixFilter = [CIFilter filterWithName:@"CIColorMatrix"];
-    [colorMatrixFilter setDefaults];
-    [colorMatrixFilter setValue:[CIVector vectorWithX:red Y:0 Z:0 W:0]
-                         forKey:@"inputRVector"];
-    [colorMatrixFilter setValue:[CIVector vectorWithX:0 Y:green Z:0 W:0]
-                         forKey:@"inputGVector"];
-    [colorMatrixFilter setValue:[CIVector vectorWithX:0 Y:0 Z:blue W:0]
-                         forKey:@"inputBVector"];
-    [colorMatrixFilter setValue:[CIVector vectorWithX:0 Y:0 Z:0 W:alpha]
-                         forKey:@"inputAVector"];
-    return colorMatrixFilter;
-}
 
 + (CIFilter *)filterSourceOverCompositingWithBackgroundImage:(CIImage *)backgroundImage;
 {

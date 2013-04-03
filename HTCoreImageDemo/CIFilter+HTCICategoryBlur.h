@@ -10,4 +10,15 @@
 
 @interface CIFilter (HTCICategoryBlur)
 
+/* OSX only:
+ CIBoxBlur
+ CIDiscBlur
+ CIMedianFilter
+ CIMotionBlur
+ CINoiseReduction
+ CIZoomBlur
+ */
+
++ (CIFilter *)filterGaussianBlurWithRadius:(CGFloat)radius NS_AVAILABLE_IOS(6_0);
+
 @end
