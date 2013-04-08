@@ -95,17 +95,11 @@
     {
         finishBlock();
     }
-
 }
 
 - (void)setImageFilter:(CIFilter *)imageFilter
 {
-    _imageFilter = imageFilter;
-    _imageFilters = @[imageFilter];
-    if (self.originalImage)
-    {
-        self.image = self.originalImage;
-    }
+    [self setImageFilters:@[imageFilter]];
 }
 
 - (void)setImageFilters:(NSArray *)imageFilters
@@ -115,8 +109,14 @@
 
 - (void)setImageFilters:(NSArray *)imageFilters complete:(HTCIVoidBlock)complete;
 {
+    [self willChangeValueForKey:@"imageFilters"];
     _imageFilters = imageFilters;
+    [self didChangeValueForKey:@"imageFilters"];
+
+    [self willChangeValueForKey:@"imageFilter"];
     _imageFilter = imageFilters[0];
+    [self didChangeValueForKey:@"imageFilter"];
+
     if (self.originalImage)
     {
         [self setImage:self.originalImage complete:complete];
