@@ -1,7 +1,7 @@
 HTCoreImage
 ===========
 
-HTCoreImage is a collection of convenience categories for Core Image.  There are convenience constructors for every filter, annotated with NS_AVAILABLE_SINCE() macros so you know what's in iOS 5 vs iOS 6.
+HTCoreImage is a collection of convenience categories for Core Image.  There are convenience constructors for __every filter__, annotated with NS_AVAILABLE_SINCE() macros so you know what's in iOS 5 vs iOS 6.
 
 ### Example:  Let's increase the contrast on an image and colorize it blue, processing on a background queue:
 
