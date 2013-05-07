@@ -55,6 +55,13 @@ HTCoreImage is a collection of convenience categories for Core Image.  There are
                    });
 ```
 
+## Installation
+
+The recommended installation method is cocoapods, which handles this dependency automatically. Add this line to your Podfile:
+
+    pod 'HTCoreImage'
+
+http://cocoapods.org
 
 ## Contributions welcome!
 
