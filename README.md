@@ -1,11 +1,26 @@
 HTCoreImage
 ===========
 
-A collection of convenience categories for Core Image.  Convenience constructors for every filter, annotated with NS_AVAILABLE_SINCE() macros so you know what's in iOS 5 vs iOS 6.
+HTCoreImage is a collection of convenience categories for Core Image.  There are convenience constructors for __every filter__, annotated with NS_AVAILABLE_SINCE() macros so you know what's in iOS 5 vs iOS 6.
 
-Here's an example.  Let's increase the contrast on an image and colorize it blue, processing on a background queue, with stock core image code:
+### Example:  Let's increase the contrast on an image and colorize it blue, processing on a background queue:
 
 ```objc
+    UIImage *sourceUIImage = [UIImage imageNamed:@"asdf"];
+
+    [[[sourceUIImage toCIImage] imageByApplyingFilters:@[
+      [CIFilter filterColorControlsSaturation:1 brightness:1 contrast:1],
+      [CIFilter filterColorMatrixWithRed:0.5 green:0.5 blue:1 alpha:1]]]
+     processToUIImageCompletion:^(UIImage *uiImage) {
+        NSLog(@"%@", uiImage);
+    }];
+```
+
+### Here's the same thing with stock Core Image for comparison:
+
+```objc
+    UIImage *sourceUIImage = [UIImage imageNamed:@"asdf"];
+
     CIImage *sourceCIImage = [CIImage imageWithCGImage:sourceUIImage.CGImage];
 
     CIFilter *colorControlsFilter = [CIFilter filterWithName:@"CIColorControls"];
@@ -40,18 +55,6 @@ Here's an example.  Let's increase the contrast on an image and colorize it blue
                    });
 ```
 
-Now let's use HTCoreImage to do the exact same thing:
-
-```objc
-    UIImage *sourceUIImage = [UIImage imageNamed:@"asdf"];
-
-    [[[sourceUIImage toCIImage] imageByApplyingFilters:@[
-      [CIFilter filterColorControlsSaturation:1 brightness:1 contrast:1],
-      [CIFilter filterColorMatrixWithRed:0.5 green:0.5 blue:1 alpha:1]]]
-     processToUIImageCompletion:^(UIImage *uiImage) {
-        NSLog(@"%@", uiImage);
-    }];
-```
 
 ## Contributions welcome!
 
