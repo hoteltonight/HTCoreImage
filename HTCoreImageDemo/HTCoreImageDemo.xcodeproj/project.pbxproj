@@ -21,7 +21,6 @@
 		1F782823170BF35200C2981E /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782822170BF35200C2981E /* HTViewController.m */; };
 		1F782840170BF41900C2981E /* CIFilter+HTConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782838170BF41900C2981E /* CIFilter+HTConvenience.m */; };
 		1F782841170BF41900C2981E /* CIImage+HTConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78283A170BF41900C2981E /* CIImage+HTConvenience.m */; };
-		1F782842170BF41900C2981E /* HTCoreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78283D170BF41900C2981E /* HTCoreImageView.m */; };
 		1F782843170BF41900C2981E /* UIImage+HTCoreImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78283F170BF41900C2981E /* UIImage+HTCoreImage.m */; };
 		1F782847170BF4BB00C2981E /* UIImage+HTSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F782846170BF4BB00C2981E /* UIImage+HTSave.m */; };
 		1F782849170BF4DF00C2981E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F782848170BF4DE00C2981E /* CoreImage.framework */; };
@@ -65,8 +64,6 @@
 		1F782839170BF41900C2981E /* CIImage+HTConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CIImage+HTConvenience.h"; path = "../CIImage+HTConvenience.h"; sourceTree = "<group>"; };
 		1F78283A170BF41900C2981E /* CIImage+HTConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CIImage+HTConvenience.m"; path = "../CIImage+HTConvenience.m"; sourceTree = "<group>"; };
 		1F78283B170BF41900C2981E /* HTCoreImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTCoreImage.h; path = ../HTCoreImage.h; sourceTree = "<group>"; };
-		1F78283C170BF41900C2981E /* HTCoreImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTCoreImageView.h; path = ../HTCoreImageView.h; sourceTree = "<group>"; };
-		1F78283D170BF41900C2981E /* HTCoreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTCoreImageView.m; path = ../HTCoreImageView.m; sourceTree = "<group>"; };
 		1F78283E170BF41900C2981E /* UIImage+HTCoreImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTCoreImage.h"; path = "../UIImage+HTCoreImage.h"; sourceTree = "<group>"; };
 		1F78283F170BF41900C2981E /* UIImage+HTCoreImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTCoreImage.m"; path = "../UIImage+HTCoreImage.m"; sourceTree = "<group>"; };
 		1F782844170BF46300C2981E /* HTFloatEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTFloatEqual.h; path = ../HTFloatEqual.h; sourceTree = "<group>"; };
@@ -184,8 +181,6 @@
 				1F78283B170BF41900C2981E /* HTCoreImage.h */,
 				1F782839170BF41900C2981E /* CIImage+HTConvenience.h */,
 				1F78283A170BF41900C2981E /* CIImage+HTConvenience.m */,
-				1F78283C170BF41900C2981E /* HTCoreImageView.h */,
-				1F78283D170BF41900C2981E /* HTCoreImageView.m */,
 				1F78283E170BF41900C2981E /* UIImage+HTCoreImage.h */,
 				1F78283F170BF41900C2981E /* UIImage+HTCoreImage.m */,
 				1F782845170BF4BB00C2981E /* UIImage+HTSave.h */,
@@ -306,7 +301,6 @@
 				1F782823170BF35200C2981E /* HTViewController.m in Sources */,
 				1F782840170BF41900C2981E /* CIFilter+HTConvenience.m in Sources */,
 				1F782841170BF41900C2981E /* CIImage+HTConvenience.m in Sources */,
-				1F782842170BF41900C2981E /* HTCoreImageView.m in Sources */,
 				1F782843170BF41900C2981E /* UIImage+HTCoreImage.m in Sources */,
 				1F782847170BF4BB00C2981E /* UIImage+HTSave.m in Sources */,
 				1FAE0C0F1739A08C00AAD3C1 /* CIFilter+HTCICategoryBlur.m in Sources */,
