@@ -22,50 +22,6 @@
     return supportedFilters;
 }
 
-+ (CIFilter *)filterLanczosWithScale:(CGFloat)scale;
-{
-    CIFilter *lanczosFilter = [CIFilter filterWithName:@"CILanczosScaleTransform"];
-    [lanczosFilter setValue:@(scale) forKey:@"inputScale"];
-    return lanczosFilter;
-}
-
-+ (CIFilter *)filterCropWithRect:(CGRect)rect;
-{
-    CIFilter *cropFilter = [CIFilter filterWithName:@"CICrop"];
-    [cropFilter setValue:[CIVector vectorWithCGRect:rect] forKey:@"inputRectangle"];
-    return cropFilter;
-}
-
-
-+ (CIFilter *)filterSourceOverCompositingWithBackgroundImage:(CIImage *)backgroundImage;
-{
-    CIFilter *sourceOverCompositingFilter = [CIFilter filterWithName:@"CISourceOverCompositing"];
-    [sourceOverCompositingFilter setDefaults];
-    [sourceOverCompositingFilter setValue:backgroundImage forKey:@"inputBackgroundImage"];
-    return sourceOverCompositingFilter;
-}
-
-+ (CIFilter *)filterWithAffineTransform:(CGAffineTransform)transform;
-{
-    CIFilter *affineTransformFilter = [CIFilter filterWithName:@"CIAffineTransform"];
-    [affineTransformFilter setDefaults];
-    [affineTransformFilter setValue:[NSValue valueWithBytes:&transform
-                                                   objCType:@encode(CGAffineTransform)]
-                             forKey:@"inputTransform"];
-    return affineTransformFilter;
-}
-
-+ (CIFilter *)filterWithBestAvailableScalingMethod:(CGFloat)scale
-{
-    CIFilter *scalingFilter = [CIFilter filterLanczosWithScale:scale];
-    if (!scalingFilter)
-    {
-        scalingFilter = [CIFilter filterWithAffineTransform:CGAffineTransformMakeScale(scale, scale)];
-    }
-    return scalingFilter;
-}
-
-
 - (void)setInputCIImage:(CIImage *)ciImage;
 {
     [self setValue:ciImage forKey:kCIInputImageKey];

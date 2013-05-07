@@ -10,4 +10,10 @@
 
 @interface CIFilter (HTCICategorySharpen)
 
++ (CIFilter *)filterSharpenLuminanceWithSharpness:(CGFloat)sharpness NS_AVAILABLE_IOS(6_0);
+
++ (CIFilter *)filterUnsharpMaskWithRadius:(CGFloat)radius // 2.5 default
+                                intensity:(CGFloat)intensity // 0.5
+                                          NS_AVAILABLE_IOS(6_0);
+
 @end

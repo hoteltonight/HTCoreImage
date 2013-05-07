@@ -10,4 +10,14 @@
 
 @interface CIFilter (HTCICategoryReduction)
 
+// osx only (all)
+// CIAreaAverage
+// CIAreaHistogram
+// CIRowAverage
+// CIColumnAverage
+// CIAreaMaximum
+// CIAreaMinimum
+// CIAreaMaximumAlpha
+// CIAreaMinimumAlpha
+
 @end

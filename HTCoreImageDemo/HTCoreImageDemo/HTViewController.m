@@ -61,9 +61,7 @@
                                           NSLog(@"%@", resultUIImage);
                                       });
                    });
-    
-    
-    
+
     // Same application using convenience categories in HTCoreImage
     
     [[[sourceUIImage toCIImage] imageByApplyingFilters:@[

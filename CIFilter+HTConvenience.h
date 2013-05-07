@@ -22,16 +22,6 @@
 - (void)setInputCGImage:(CGImageRef)cgImage;
 - (CIImage *)outputImage;
 
-// Available since iOS 5
-
-+ (CIFilter *)filterCropWithRect:(CGRect)rect NS_AVAILABLE_IOS(5_0);
-
-+ (CIFilter *)filterSourceOverCompositingWithBackgroundImage:(CIImage *)backgroundImage NS_AVAILABLE_IOS(5_0);
-
-+ (CIFilter *)filterWithAffineTransform:(CGAffineTransform)transform NS_AVAILABLE_IOS(5_0);
-
-+ (CIFilter *)filterWithBestAvailableScalingMethod:(CGFloat)scale NS_AVAILABLE_IOS(5_0);
-
 /*
  CIAdditionCompositing,
  CIAffineTransform,
@@ -82,8 +72,6 @@
  */
 
 // Available since iOS 6
-
-+ (CIFilter *)filterLanczosWithScale:(CGFloat)scale NS_AVAILABLE_IOS(6_0);
 
 /*
  CIAffineClamp,
