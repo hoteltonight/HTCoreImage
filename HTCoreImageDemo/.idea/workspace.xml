@@ -16,11 +16,11 @@
     <file path="/CIFilter+HTCICategoryDistortionEffect.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367875927587" ignored="false" />
     <file path="/CIFilter+HTCICategoryGenerator.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367877802181" ignored="false" />
     <file path="/CIFilter+HTCICategoryGenerator.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367878660329" ignored="false" />
-    <file path="/a.dummy" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367901699364" ignored="false" />
+    <file path="/a.dummy" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903424752" ignored="false" />
     <file path="/CIFilter+HTCICategoryGeometryAdjustment.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367884178854" ignored="false" />
     <file path="/CIFilter+HTCICategoryGeometryAdjustment.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367884184877" ignored="false" />
     <file path="/CIFilter+HTCICategoryGradient.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367887215476" ignored="false" />
-    <file path="/CIFilter+HTCICategoryGradient.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367887285471" ignored="false" />
+    <file path="/CIFilter+HTCICategoryGradient.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903888833" ignored="false" />
     <file path="/CIFilter+HTCICategoryHalftoneEffect.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367888511483" ignored="false" />
     <file path="/CIFilter+HTCICategoryHalftoneEffect.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367888629799" ignored="false" />
     <file path="/CIFilter+HTCICategoryReduction.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367888961129" ignored="false" />
@@ -32,6 +32,12 @@
     <file path="/CIFilter+HTCICategoryTileEffect.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367897849733" ignored="false" />
     <file path="/CIFilter+HTCICategoryTransition.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903046062" ignored="false" />
     <file path="/CIFilter+HTCICategoryTransition.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903133586" ignored="false" />
+    <file path="/*.regexp" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903501148" ignored="false" />
+    <file path="$PROJECT_DIR$/HTCoreImageDemo/main.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903791128" ignored="false" />
+    <file path="$PROJECT_DIR$/HTCoreImageDemo/HTAppDelegate.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903791128" ignored="false" />
+    <file path="$PROJECT_DIR$/HTCoreImageDemo/HTAppDelegate.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903791128" ignored="false" />
+    <file path="$PROJECT_DIR$/HTCoreImageDemo/HTViewController.h" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903791128" ignored="false" />
+    <file path="$PROJECT_DIR$/HTCoreImageDemo/HTViewController.m" changelist="2afcdaad-3a76-429e-a02a-c91a2b764982" time="1367903791128" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,64 +57,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CIFilter+HTCICategorySharpen.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategorySharpen.h">
+      <file leaf-file-name="CIFilter+HTCICategorySharpen.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategorySharpen.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CIFilter+HTCICategoryTileEffect.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="3367" selection-end="3367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CIFilter+HTCICategoryGeometryAdjustment.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGeometryAdjustment.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CIFilter+HTCICategoryTransition.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTransition.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="66" selection-start="3655" selection-end="3655" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CIFilter+HTCICategoryTransition.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTransition.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="36" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.48706895">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CIFilter+HTCICategoryTileEffect.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="60" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CIFilter+HTCICategoryStylize.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryStylize.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+            <state line="33" column="1" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,25 +69,79 @@
       <file leaf-file-name="CIFilter+HTCICategoryStylize.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryStylize.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CIFilter+HTCICategorySharpen.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategorySharpen.m">
+      <file leaf-file-name="CIFilter+HTCICategoryStylize.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryStylize.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+            <state line="28" column="16" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CIFilter+HTCICategoryReduction.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryReduction.h">
+      <file leaf-file-name="CIFilter+HTCICategoryTileEffect.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+            <state line="141" column="60" selection-start="6808" selection-end="6808" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryGradient.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGradient.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="63" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.34240687">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryTransition.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTransition.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="68" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryTransition.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTransition.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="64" selection-start="4603" selection-end="4603" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryGeometryAdjustment.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGeometryAdjustment.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="1" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategoryTileEffect.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="0" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFilter+HTCICategorySharpen.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategorySharpen.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,7 +161,6 @@
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryGeometryAdjustment.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryGeometryAdjustment.h" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryGradient.h" />
-        <option value="$PROJECT_DIR$/CIFilter+HTCICategoryGradient.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryHalftoneEffect.h" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryHalftoneEffect.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryReduction.h" />
@@ -167,6 +172,7 @@
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.m" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryTransition.h" />
         <option value="$PROJECT_DIR$/CIFilter+HTCICategoryTransition.m" />
+        <option value="$PROJECT_DIR$/CIFilter+HTCICategoryGradient.m" />
       </list>
     </option>
   </component>
@@ -296,10 +302,9 @@
     <frame x="906" y="22" width="1015" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24899194" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -310,6 +315,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -383,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGradient.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGradient.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="50" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
@@ -420,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryReduction.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="24" column="16" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -434,56 +433,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategorySharpen.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+        <state line="33" column="1" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryStylize.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryStylize.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="28" column="16" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGeometryAdjustment.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="20" column="1" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="3367" selection-end="3367" vertical-scroll-proportion="0.0">
+        <state line="76" column="0" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTileEffect.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="60" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.0">
+        <state line="141" column="60" selection-start="6808" selection-end="6808" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTransition.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="66" selection-start="3655" selection-end="3655" vertical-scroll-proportion="0.0">
+        <state line="70" column="64" selection-start="4603" selection-end="4603" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryTransition.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="36" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.48706895">
+        <state line="30" column="68" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFilter+HTCICategoryGradient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="63" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.34240687">
           <folding />
         </state>
       </provider>
