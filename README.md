@@ -9,7 +9,7 @@ HTCoreImage is a collection of convenience categories for Core Image.  There are
     UIImage *sourceUIImage = [UIImage imageNamed:@"asdf"];
 
     [[[sourceUIImage toCIImage] imageByApplyingFilters:@[
-      [CIFilter filterColorControlsSaturation:1 brightness:1 contrast:1],
+      [CIFilter filterColorControlsSaturation:1 brightness:1 contrast:2],
       [CIFilter filterColorMatrixWithRed:0.5 green:0.5 blue:1 alpha:1]]]
      processToUIImageCompletion:^(UIImage *uiImage) {
         NSLog(@"%@", uiImage);
