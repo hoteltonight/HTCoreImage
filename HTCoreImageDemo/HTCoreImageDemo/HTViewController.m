@@ -27,7 +27,7 @@
 
     
     
-    UIImage *sourceUIImage = [UIImage imageNamed:@"asdf"];
+    UIImage *sourceUIImage = [UIImage imageNamed:@"squirrel.jpeg"];
     
     
     
@@ -55,7 +55,7 @@
     [colorMatrixFilter setInputCIImage:[colorControlsFilter outputImage]];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^
-                   {
+                   {                       
                        CIContext *ciContext = [CIContext contextWithOptions:@{ kCIContextUseSoftwareRenderer : (id)kCFBooleanFalse }];
                        CGImageRef resultCGImage = [ciContext createCGImage:[colorMatrixFilter outputImage] fromRect:[[colorMatrixFilter outputImage] extent]];
                        UIImage *resultUIImage = [UIImage imageWithCGImage:resultCGImage scale:sourceUIImage.scale orientation:sourceUIImage.imageOrientation];
@@ -66,6 +66,7 @@
                                       });
                    });
 
+    
     // Same application using convenience categories in HTCoreImage
     
     [[[sourceUIImage toCIImage] imageByApplyingFilters:@[
